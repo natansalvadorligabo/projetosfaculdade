@@ -1,3 +1,19 @@
+/*
+O código implementa um sistema de gerenciamento de livros.
+Ele permite cadastrar novos livros, realizar consultas por código ou título,
+consultar livros abaixo de um preço informado, consultar o número de livros
+de um autor informado e gerar um relatório de livros cadastrados.
+
+Os livros são armazenados em uma estrutura de dados do tipo Book, que possui
+título, autor, editora, código do livro, ano de publicação e preço. Os livros
+são armazenados em um vetor "books" e o número de livros registrados é
+controlado pela variável "count". O próximo código de livro disponível é
+armazenado na variável "nextCode".
+
+No geral, o código oferece funcionalidades básicas para um sistema de gerenciamento
+de livros, permitindo o cadastro, consulta e geração de relatórios.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
