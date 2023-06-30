@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <h1>Entre em contato</h1>
+        <p>Mande uma mensagem para o Abel</p>
+    </header>
+
+    <nav class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="stats.html">Estatísticas</a>
+        <a href="conquest.html">Conquistas</a>
+        <a href="galery.html">Galeria</a>
+        <a href="forms.html">Contato</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+
+    <main>
+        <form action="form.js" method="post">
+
+            <p>
+                <label for="id_nome">Nome:</label><br>
+                <input type="text" name="nome" id="id_nome" required="required" placeholder="Seu nome aqui..."
+                    maxlength="5">
+            </p>
+
+            <p>
+                <label>E-mail:</label><br>
+                <input type="email" name="email" required="required" placeholder="natan.ligabo@aluno.ifsp.edu.br">
+            </p>
+
+            <p>
+                <label>Celular:</label><br>
+                <input type="tel" name="telefone" placeholder="+55(00)00000-0000" required="required">
+            </p>
+
+            <p>
+                <label>Mensagem:</label><br>
+                <input type="text" name="text" id="text" required="required" maxlength="500">
+            </p>
+
+            <input type="submit" value="Enviar" style="float: right;">
+            <input type="reset" name="limpa" value="Limpar formulário" style="float: left;">
+
+        </form>
+    </main>
+
+    <footer class="footer">
+        <p><strong>Autor:</strong> Natan Salvador Ligabô<br><br>
+            <a href="https://www.linkedin.com/in/natansalvadorligabo/"
+                target="_blank">natan.ligabo@aluno.ifsp.edu.br</a>
+        </p>
+    </footer>
+</body>
+
+</html>
