@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Forca</title>
+</head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        main {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #imagemForca {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #campo {
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        #botao {
+            padding: 5px 10px;
+            font-size: 16px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        #letra {
+            font-size: 80px;
+            margin-top: 20px;
+        }
+    </style>
+
+<body>
+    <header>
+        <h1>Jogo da Forca</h1>
+    </header>
+    <main>
+        <p id="teste"></p>
+        <img src="img/forca0.png" width="300" height="300" id="imagemForca"><br>
+        <h2>Digite uma letra:</h1>
+            <button id="botao">Enviar</button>
+            <input type="text" id="campo"><br>
+            <p id="letra" style="font-size: 80px;"></p>
+    </main>
+</body>
+<script src="js/forca.js"></script>
+
+</html>
